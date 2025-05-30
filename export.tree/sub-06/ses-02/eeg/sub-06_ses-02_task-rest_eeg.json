@@ -1,0 +1,16 @@
+{
+  "TaskName": "rest",
+  "SoftwareFilters": "n/a",
+  "SamplingFrequency": 1000,
+  "PowerLineFrequency": 50,
+  "EEGReference": "ref",
+  "EEGChannelCount": 32,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 1,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "continuous",
+  "RecordingDuration": 21600.0,
+  "Manufacturer": "OpenEphys"
+}
