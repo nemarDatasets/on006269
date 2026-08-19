@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Tethered EEG Recordings in Syngap1 rats",
+  "description": "This dataset contains 6-hour tethered EEG recordings from wildtype and Syngap1+/Δ-GAP heterozygous (HET) rats, aged 12-16 weeks, collected to study electrophysiological alterations related to SYNGAP1 haploinsufficiency. Recordings span zeitgeber time 3 to 9 under a 12:12 light:dark cycle, providing a resource for investigating cortical activity abnormalities in a rodent model of SYNGAP1-related intellectual disability and epilepsy.",
+  "methods_description": "EEG recordings were acquired using an OpenEphys acquisition system with a head-mounted 32-channel EEG array probe (H32-EEG, NeuroNexus, USA) equipped with accelerometers, at a sampling rate of 1 kHz. Each rat underwent one or two 6-hour recording sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,6 +13,30 @@
     "Peter C Kind": {},
     "Alfredo Gonzalez-Sulser": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "SYNGAP1"
+    },
+    {
+      "term": "rat model"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Intellectual Disability",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008607"
+    },
+    {
+      "term": "electrophysiology"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006269.v1.0.0",
@@ -38,14 +64,14 @@
       "funder_name": "The work performed here was funded by The Simons Initiative for the Developing Brain."
     },
     {
-      "funder_name": "Simons Initiative for the Developing Brain"
+      "funder_name": "The Simons Initiative for the Developing Brain"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "114.5 GB (43 files)"
   ],
@@ -57,28 +83,6 @@
     ".vhdr",
     ".vmrk",
     ".yml"
-  ],
-  "description": "This dataset comprises 6-hour tethered EEG recordings from wildtype and Syngap1 heterozygous mutant rats (male, 12-16 weeks old) acquired during the light phase of the circadian cycle. Recordings were obtained using a 32-channel head-mounted EEG array with integrated accelerometers at 1 kHz sampling rate. The dataset supports investigation of electrophysiological alterations associated with SYNGAP1-related pathophysiology in a rodent model.",
-  "methods_description": "EEG recordings were acquired using an OpenEphys acquisition system with a head-mounted 32-channel EEG array probe (H32-EEG, NeuroNexus) equipped with accelerometers, sampled at 1 kHz. Recordings were conducted in male rats aged 12-16 weeks during the light phase (zeitgeber time 3-9 hours) under a 12-hour light/dark cycle. Most animals underwent two 6-hour recording sessions.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "SYNGAP1"
-    },
-    {
-      "term": "rodent model"
-    },
-    {
-      "term": "circadian rhythm"
-    },
-    {
-      "term": "neural oscillations"
-    }
   ],
   "source_hash": "7a0d8520df4081488dd9e11f678e10d37a45cf2a2bcb3f8b27301aaed38dc009"
 }
