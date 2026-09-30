@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Tethered EEG Recordings in Syngap1 rats",
-  "description": "This dataset contains 6-hour tethered EEG recordings from wildtype and Syngap1+/Δ-GAP heterozygous (HET) rats, aged 12-16 weeks, collected to study electrophysiological alterations related to SYNGAP1 haploinsufficiency. Recordings span zeitgeber time 3 to 9 under a 12:12 light:dark cycle, providing a resource for investigating cortical activity abnormalities in a rodent model of SYNGAP1-related intellectual disability and epilepsy.",
-  "methods_description": "EEG recordings were acquired using an OpenEphys acquisition system with a head-mounted 32-channel EEG array probe (H32-EEG, NeuroNexus, USA) equipped with accelerometers, at a sampling rate of 1 kHz. Each rat underwent one or two 6-hour recording sessions.",
+  "description": "Six-hour tethered EEG recordings from wildtype and Syngap+/Δ-GAP heterozygous rats (male, 12-16 weeks old), collected between zeitgeber times 3 and 9 under a 12:12 light-dark cycle. Recordings used a head-mounted 32-channel EEG array with accelerometers, sampled at 1 kHz. Most animals have two recording sessions. The data support study of SYNGAP1-related neurodevelopmental pathophysiology.",
+  "methods_description": "EEG was acquired with an Open Ephys system and a head-mounted 32-channel EEG array probe (NeuroNexus H32-EEG) with accelerometers at a 1 kHz sampling rate. Recordings were 6 hours long, starting at ZT3-9, in freely moving tethered rats.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,23 +18,21 @@
       "term": "EEG"
     },
     {
-      "term": "SYNGAP1"
+      "term": "Syngap1"
     },
     {
       "term": "rat model"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "term": "neurodevelopmental disorders"
     },
     {
-      "term": "Intellectual Disability",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008607"
+      "term": "accelerometry"
     },
     {
-      "term": "electrophysiology"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -56,7 +54,7 @@
     {
       "identifier": "10.1016/j.celrep.2024.114733",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     }
   ],
   "funding_references": [
@@ -73,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "114.5 GB (43 files)"
+    "107 GB (43 files)"
   ],
   "formats": [
     ".eeg",
